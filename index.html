@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cat Me</title>
+</head>
+<body>
+    <section id="intro " class="roxo">
+        <nav>
+            <div class="logo">
+                <img src="logo.svg" alt="" srcset="">
+            </div>
+            <div class="hamburguer" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+            <ul class="links">
+                <li><a href="#comofunciona">Como Funciona</a></li>
+                <li><a href="#sobreojogo">Sobre o jogo</a></li>
+                <li><a class="jogueagoraNav" href="#agora">Jogue agora</a></li>
+            </ul>
+        </nav>      
+        <div class="introducao">
+            <div>
+                <img src="mockupVR.png" alt="" srcset="">
+            </div>
+            <div class="texto">
+                <h2>Jogar adivinha nunca foi tão divertido e tão  interativo!</h2>
+                <p>
+                    Baixe e tenha acesso a 9 categorias incríveis pra jogar com a família e amigos 
+                </p>
+                <a href="#">Ver Mais</a>
+            </div>
+        </div>
+    </section>
+    <section id="comofunciona">
+        <div class="white comofunciona">
+            <h2>COMO FUNCIONA O JOGO</h2>
+            <div class="cards">
+                <div class="card">
+                    <img src="iconMulher.svg" alt="" srcset="">
+                    <div class="text">
+                        <h3>Acesse o app e
+                            click em jogar
+                        </h3>
+                        <p>Ao acessar o jogo, se conecte com a tiara, escolha uma categoria e comece a jogar!
+                            Chame os amigos para se divertir!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src= "iconTimer.svg" alt="" srcset="">
+                    <div  class="text">
+                        <h3>Acesse o app e
+                            que em jogar
+                        </h3>
+                        <p>Ao acessar o jogo, se conecte com a tiara, escolha uma categoria e comece a jogar!
+                            Chame os amigos para se divertir!</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="iconQuadrado.svg" alt="" srcset="">
+                    <div  class="text">
+                        <h3>Corra contra 
+                            o tempo
+                        </h3>
+                        <p>AO seu desafio é acertar as palavras que estão aparecendo em sua tiara através de dicas dos outros participantes!</p>
+                    </div>
+                </div>
+                    
+                  
+                </div>
+            </div>
+        <div class="grid">
+            <div id="sobreojogo" class="s1 s roxo">
+                <div>
+                    <h1>Um jogo clássico reinventado        </h1>
+                    <p>O jogo original é composto por cartas, porém existem também alguns aplicativos, mas o diferencial no nossa está na interação inteligente e divertida através da tiara de led!
+</p>
+                </div>
+                <img src="mockupstodos.png" alt="" srcset="">
+            </div>
+            <div class="s2 s roxo">
+                <img src="ilustracao1.png" alt="">
+                <h1>JOGUE COM OS AMIGOS</h1>
+            </div>
+            <div class="s3 s roxo">
+                <img src="oculosVR.png" alt="">
+                <div class="textoespecial">
+                    <h1 class="branco">Confira as categorias mais jogadas do mês</h1>
+                    <h1 class="roxinho">Confira as categorias mais jogadas do mês</h1>
+                    <h1 class="laraninha">Confira as categorias mais jogadas do mês</h1>
+                </div>
+            </div>
+            <div class="s4 s roxo">
+                <img src="ilustracao2.png" alt="">
+                <div>
+                    <h1>Termos do Design</h1>
+                    <p>
+                        Para você que gosta de design que tal adivinhar palavras sobre seus  conhecimentos sobre UX e mais técnicas usadas
+                    </p>
+                </div>
+            </div>
+            <div class="white s s5">
+                <div>
+                    <h1>músicas do funk</h1>
+                    <p>Nessa cantegoria você pode adivinha as músicas mais famosas do funk!</p>
+                </div>
+                <img src="ilustracao4.png" alt="">
+            </div>
+            <div class="laranja s s6">
+                <img src="ilustracao5.png" alt="">
+                <div>
+                    <h1>mc’s do funk</h1>
+                    <p>Seus cantores de funks preferidos para você que gosta do melhor hit!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="agora">
+        <div class="jogueagora">
+                <img src="mockupFinal.png" alt="">
+            <div>
+                 <h2>Baixe Agora 100% grátis</h2>
+                <img class="botaobaixar" src="AppStoreGooglePlay.png" alt="" srcset=""> 
+            </div>
+        </div> 
+    </section>
+    <footer id="footer ">
+        <img src="logo.svg" alt="" srcset="">
+    </footer>
+    <script>
+        const nav = document.querySelector("nav")
+        const list = document.querySelector("nav ul")
+        function myFunction(x) {
+          x.classList.toggle("change");
+          nav.classList.toggle("navExpand")
+          list.classList.toggle("opacity")
+        }
+    </script>
+</body>
+</html>
